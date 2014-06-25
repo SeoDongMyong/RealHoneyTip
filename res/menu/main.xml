@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="real.honey.tip.MainActivity" >
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/reading_glasses"
+        android:showAsAction="ifRoom"
+        android:title="액션"/>
+</menu>

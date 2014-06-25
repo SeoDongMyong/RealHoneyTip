@@ -1,0 +1,45 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="FindMyTrain" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/ActionBarBackground</item>
+        <item name="actionBarStyle">@style/ActionBarBackground</item>
+        <item name="android:icon">@drawable/ic_launcher</item>
+        <item name="actionBarTabBarStyle">@style/MyActionBarTabs</item>
+        <item name="android:actionBarTabBarStyle">@style/MyActionBarTabs</item>
+        <item name="actionBarTabStyle">@style/FindMyTrain.ActionBarTab</item>
+        <item name="android:actionBarTabStyle">@style/FindMyTrain.ActionBarTab</item>
+    </style>
+
+    <style name="testo" parent="@android:style/Widget.DatePicker">
+        <item name="android:divider">@color/totalColor</item>
+    </style>
+
+    <style name="FindMyTrain.ActionBarTab">
+        <item name="android:background">@drawable/tab_bar_background</item>
+        <item name="background">@drawable/tab_bar_background</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="MyActionBarTabs" parent="@style/Widget.AppCompat.ActionBar.TabBar">
+        <item name="android:background">#F7F8F8</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ActionBarBackground" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/action_bar_background</item>
+        <item name="android:titleTextStyle">@style/TitleColor</item>
+        <item name="background">@drawable/action_bar_background</item>
+        <item name="titleTextStyle">@style/TitleColor</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <style name="TitleColor" parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="Theme.Dialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

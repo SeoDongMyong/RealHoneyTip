@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="FindMyTrain" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/ActionBarBackground</item>
+        <item name="actionBarStyle">@style/ActionBarBackground</item>
+        <item name="actionBarTabBarStyle">@style/MyActionBarTabs</item>
+        <item name="android:actionBarTabBarStyle">@style/MyActionBarTabs</item>
+        <item name="actionBarTabStyle">@style/FindMyTrain.ActionBarTab</item>
+        <item name="android:actionBarTabStyle">@style/FindMyTrain.ActionBarTab</item>
+    </style>
+
+</resources>
